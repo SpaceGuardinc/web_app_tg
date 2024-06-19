@@ -1,0 +1,134 @@
+#searchInput::placeholder {
+    color: #808080;
+}
+
+#searchInput {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 350px;
+    color: grey;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: grey;
+    border-top-color: transparent;
+    background-color: transparent;
+}
+
+#searchInput:focus {
+    outline: none;
+    color: grey;
+    border-bottom-color: #87CEFA;
+}
+
+.product .price {
+    font-size: 14px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.product p {
+    font-size: 14px;
+    color: grey;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+button {
+    padding: 5px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.add {
+    background-color: #008CBA;
+}
+
+.add-to-cart {
+    background-color: #f44336;
+}
+
+.add-to-cart:hover {
+    background-color: #d32f2f;
+}
+
+#catalog-title {
+    text-align: center;
+    color: grey;
+}
+
+.product img {
+    margin-right: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+
+/* Стили для верхней панели навигации или заголовка */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+}
+
+/* Общие стили для основного содержимого страницы */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* Стили для контейнера с информацией о товаре */
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 10px; /* Закругленные углы */
+    background-color: #f9f9f9; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+}
+
+/* Стили для изображений товара */
+.product-images img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Стили для информации о товаре */
+.product-info {
+    text-align: center;
+}
